@@ -1,0 +1,25 @@
+{
+  "name": "@nexus/video-repurposing-engine",
+  "version": "1.0.0",
+  "description": "Video cut segmentation, viral hook scoring, dynamic karaoke caption generation, and multi-platform FFmpeg export preset engine.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "video-repurposing",
+    "dynamic-captions",
+    "karaoke-subtitles",
+    "ffmpeg",
+    "tiktok",
+    "reels",
+    "youtube-shorts"
+  ],
+  "author": "Dr. Milind Chatrabhuji",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@nexus/video-monetization-kit",
+  "version": "1.0.0",
+  "description": "B2B service agreements, client video intake briefs, white-label sales decks, and dual-currency invoicing engine for video repurposing retainers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "video-repurposing",
+    "monetization",
+    "retainer-agreements",
+    "invoicing",
+    "b2b-contracts"
+  ],
+  "author": "Dr. Milind Chatrabhuji",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@nexus/video-edge-gateway",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers edge API gateway for video repurposing metadata generation, storage presigning, and render webhooks.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "video-gateway",
+    "cloudflare-workers",
+    "metadata-generator",
+    "render-job",
+    "webhooks"
+  ],
+  "author": "Dr. Milind Chatrabhuji",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240329.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.50.0"
+  }
+}
